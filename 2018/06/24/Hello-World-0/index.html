@@ -7,14 +7,17 @@
   
   <title>Hello World | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="article">
+  <meta name="description" content="Hexo Blog学习笔记一 独立域名绑定1. DNS解析www和@记录做CNAME解析到 用户名.github.io 2. Hexo上的设置域名绑定Github     在D:\hexo\blog\source目录下新建一个文件CNAME，内容为要绑定的域名： 文件去掉格式，直接空白 www.example.com example.com 二 文章  &amp;amp; 草稿文章1、新建文章    $">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Hello World">
 <meta property="og:url" content="http://yoursite.com/2018/06/24/Hello-World-0/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="Hexo Blog学习笔记一 独立域名绑定1. DNS解析www和@记录做CNAME解析到 用户名.github.io 2. Hexo上的设置域名绑定Github     在D:\hexo\blog\source目录下新建一个文件CNAME，内容为要绑定的域名： 文件去掉格式，直接空白 www.example.com example.com 二 文章  &amp;amp; 草稿文章1、新建文章    $">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-06-24T15:47:56.005Z">
+<meta property="og:updated_time" content="2018-06-25T15:34:55.895Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hello World">
+<meta name="twitter:description" content="Hexo Blog学习笔记一 独立域名绑定1. DNS解析www和@记录做CNAME解析到 用户名.github.io 2. Hexo上的设置域名绑定Github     在D:\hexo\blog\source目录下新建一个文件CNAME，内容为要绑定的域名： 文件去掉格式，直接空白 www.example.com example.com 二 文章  &amp;amp; 草稿文章1、新建文章    $">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -83,11 +86,40 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <h1 id="Hexo-Blog学习笔记"><a href="#Hexo-Blog学习笔记" class="headerlink" title="Hexo Blog学习笔记"></a>Hexo Blog学习笔记</h1><h2 id="一-独立域名绑定"><a href="#一-独立域名绑定" class="headerlink" title="一 独立域名绑定"></a>一 独立域名绑定</h2><h3 id="1-DNS解析"><a href="#1-DNS解析" class="headerlink" title="1. DNS解析"></a>1. DNS解析</h3><p>www和@记录做CNAME解析到 用户名.github.io</p>
+<h3 id="2-Hexo上的设置"><a href="#2-Hexo上的设置" class="headerlink" title="2. Hexo上的设置"></a>2. Hexo上的设置</h3><p>域名绑定Github    </p>
+<p>在D:\hexo\blog\source目录下新建一个文件CNAME，内容为要绑定的域名：</p>
+<p>文件去掉格式，直接空白</p>
+<pre><code>www.example.com
+example.com
+</code></pre><h2 id="二-文章-amp-草稿"><a href="#二-文章-amp-草稿" class="headerlink" title="二 文章  &amp; 草稿"></a>二 文章  &amp; 草稿</h2><h3 id="文章"><a href="#文章" class="headerlink" title="文章"></a>文章</h3><p>1、新建文章  </p>
+<blockquote>
+<p>$ hexo new “new artical”</p>
+</blockquote>
+<p>2、属性<br>包含如下几类：<br>layout   Layout<br>title    文章的标题<br>date     创建日期<br>updated  修改日期<br>comments 是否开启评论<br>tags     标签<br>categories  分类<br>permalink   url中的名字</p>
+<p>3、分类</p>
+<blockquote>
+<p>categories:  </p>
+<ul>
+<li>日记<br>tags:  </li>
+<li>Hexo  </li>
+<li>node.js  </li>
+</ul>
+</blockquote>
+<p>4、摘要：<br>同wordpress一样，<a id="more"></a>之上的内容为摘要.</p>
+<h3 id="草稿"><a href="#草稿" class="headerlink" title="草稿"></a>草稿</h3><p>草稿可当作是一种“私密文章”功能。</p>
+<blockquote>
+<p>$ hexo new draft “new draft”</p>
+</blockquote>
+<p>将草稿变为文章：</p>
+<blockquote>
+<p>$ hexo publish [layout] <filename></filename></p>
+</blockquote>
+
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/06/24/Hello-World-0/" data-id="cjit0fdug00011wvp2s5o3i1n" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/06/24/Hello-World-0/" data-id="cjiufko01000024vpf3675wmu" class="article-share-link">Share</a>
       
       
     </footer>
